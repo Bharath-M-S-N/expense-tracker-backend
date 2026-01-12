@@ -1,18 +1,12 @@
 package com.expensetracker.model;
 
 /* JPA annotations */
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GenerationValue;
-import jakarta.persistence.GenerationType;
-
-/* Java time API for dates */
-
 import java.time.LocalDate;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Expense{
